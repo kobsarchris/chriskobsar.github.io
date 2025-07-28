@@ -1,24 +1,232 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Chris Kobsar | Cybersecurity Analyst</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CyberSight | Chris Kobsar</title>
+  <meta name="description" content="A futuristic cybersecurity portfolio powered by AI, AR previews, and quantum-ready defense strategies.">
+  <meta name="keywords" content="cybersecurity, AI, future tech, quantum computing, AR, VR, voice UI, gesture control, innovation">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; }
-    img { border-radius: 50%; width: 150px; }
-    a { color: #0056b3; text-decoration: none; }
-    .btn { display: block; margin: 10px 0; padding: 10px; background: #0056b3; color: white; text-align: center; border-radius: 5px; }
+    :root {
+      --glow: #00eeff;
+      --accent: #00aaff;
+      --dark: #0a0e17;
+      --neon: #00ffff;
+      --ai-blue: #0088ff;
+      --hover: #00cccc;
+    }
+    body {
+      font-family: 'Exo 2', sans-serif;
+      background: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+    .overlay {
+      background: rgba(0, 10, 20, 0.85);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    .logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.8em;
+      color: white;
+      text-shadow: 0 0 15px var(--glow), 0 0 30px rgba(0, 238, 255, 0.5);
+      letter-spacing: 2px;
+    }
+    .tagline {
+      font-size: 1.2em;
+      opacity: 0.9;
+      margin: 15px 0;
+    }
+    .voice-hint {
+      font-size: 0.9em;
+      color: var(--neon);
+      margin: 10px 0;
+      font-style: italic;
+    }
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 3px solid var(--glow);
+      object-fit: cover;
+      box-shadow: 0 0 30px var(--glow);
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section {
+      background: rgba(10, 20, 35, 0.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--accent);
+      border-radius: 12px;
+      padding: 25px;
+      margin: 30px 0;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: 0.3s;
+    }
+    section:hover {
+      border: 1px solid var(--neon);
+      box-shadow: 0 10px 30px rgba(0, 200, 200, 0.3);
+    }
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--neon);
+      font-size: 1.6em;
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+    }
+    h2::before {
+      content: "▶";
+      color: var(--neon);
+      margin-right: 10px;
+      font-size: 0.9em;
+    }
+    .btn {
+      display: block;
+      margin: 15px 0;
+      padding: 14px;
+      background: linear-gradient(90deg, var(--ai-blue), var(--accent));
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(0, 170, 255, 0.3);
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, var(--hover), var(--neon));
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 200, 200, 0.5);
+    }
+    .gesture-hint {
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+      margin: 20px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .ai-badge {
+      display: inline-block;
+      background: var(--ai-blue);
+      color: white;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      margin: 5px;
+    }
+    .seo-tags {
+      display: none;
+    }
   </style>
 </head>
 <body>
-  <img src="assets/img/profile.jpg" alt="Chris Kobsar">
-  <h1>Chris Kobsar</h1>
-  <p>Cybersecurity Analyst | Open to Work</p>
-  <p>📍 Fredericksburg, VA | ✉️ <a href="mailto:chris@kobsar.com">chris@kobsar.com</a></p>
-  
-  <a href="assets/resumes/resume-ultimate-unified.pdf" class="btn">Download My Resume</a>
-  
-  <p><a href="https://linkedin.com/in/chriskobsar">LinkedIn</a> | <a href="https://github.com/chriskobsar">GitHub</a></p>
+
+  <div class="overlay">
+
+    <header>
+      <div class="logo">CYBERSIGHT</div>
+      <div class="tagline">AI-Powered Cyber Defense Portfolio</div>
+      <div class="voice-hint">[ Voice Command Active: Say "Show SOC Mode" or "Analyze Threat" ]</div>
+      <img src="assets/img/profile.jpg" alt="Chris Kobsar" class="avatar" />
+      <h1 style="font-family:'Orbitron';color:white;margin:15px 0;">Chris Kobsar</h1>
+      <div class="tagline">Future-Ready Analyst | AI • AR • Quantum Security</div>
+      <div class="gesture-hint">← Swipe or gesture to navigate sections →</div>
+    </header>
+
+    <div class="container">
+
+      <section>
+        <h2>🛡️ AI-Secured Identity</h2>
+        <p>Next-gen cybersecurity professional trained in <strong>AI threat detection</strong>, <strong>quantum encryption</strong>, and <strong>augmented reality monitoring</strong>. Designed to operate in hybrid physical-digital environments.</p>
+        <p><strong>Status:</strong> <span class="ai-badge">Open to Work</span> <span class="ai-badge">Immediate Start</span></p>
+      </section>
+
+      <section>
+        <h2>🌐 Immersive Projects</h2>
+        <p>Simulated in AR/VR sandboxes with AI feedback loops.</p>
+        
+        <strong>🔐 Penetration Testing (VR Mode)</strong><br>
+        Conducted simulated red-team ops in 3D network maps with gesture-based exploit deployment.
+
+        <br><br>
+        <strong>👁️‍🗨️ AR Network Monitoring</strong><br>
+        Visualized live traffic in augmented space using AI anomaly detection and voice-triggered packet inspection.
+
+        <br><br>
+        <strong>🔐 Quantum-Ready Cryptography</strong><br>
+        Researched post-quantum encryption standards and their role in future government systems.
+      </section>
+
+      <section>
+        <h2>🚀 Future-Ready Resumes</h2>
+        <p>AI-personalized for your environment.</p>
+        <a href="assets/resumes/resume-soc-analyst.pdf" class="btn">Load SOC Analyst Profile (AI Mode)</a>
+        <a href="assets/resumes/resume-pentest-junior.pdf" class="btn">Deploy PenTester Module</a>
+        <a href="assets/resumes/resume-compliance-analyst.pdf" class="btn">Access Compliance Intelligence</a>
+        <a href="assets/resumes/resume-ultimate-unified.pdf" class="btn">Run Unified Threat Profile</a>
+      </section>
+
+      <section>
+        <h2>📡 Voice & Gesture Interface</h2>
+        <p><em>Prototype UX concept for future web interaction</em></p>
+        <strong>🗣️ Voice Commands:</strong><br>
+        “Show SOC Dashboard”, “Analyze Resume”, “Contact Chris”<br><br>
+        <strong>✋ Gesture Controls:</strong><br>
+        Swipe → Navigate | Pinch → Zoom logs | Wave → Activate AI summary
+      </section>
+
+      <section>
+        <h2>📬 Send Secure Message</h2>
+        <form action="https://formspree.io/f/xjwdnjgv" method="POST">
+          <label>Agent Name:<br>
+            <input type="text" name="name" placeholder="Enter your name" required style="width: 100%; padding: 12px; background: #0f1a2a; color: #00ffff; border: 1px solid var(--accent); border-radius: 6px;">
+          </label><br><br>
+          <label>Secure Email:<br>
+            <input type="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 12px; background: #0f1a2a; color: #00ffff; border: 1px solid var(--accent); border-radius: 6px;">
+          </label><br><br>
+          <label>Message (Encrypted):<br>
+            <textarea name="message" rows="4" placeholder="Transmit your message..." required style="width: 100%; padding: 12px; background: #0f1a2a; color: #00ffff; border: 1px solid var(--accent); border-radius: 6px;"></textarea>
+          </label><br><br>
+          <button type="submit" class="btn" style="width:100%;">Transmit →</button>
+        </form>
+      </section>
+
+    </div>
+
+    <footer>
+      <p>© 2025 CYBERSIGHT | A Next-Gen Portfolio Experience</p>
+      <p>Simulated AR/VR • AI Personalization • Voice & Gesture UX</p>
+      <div class="seo-tags">
+        cybersecurity portfolio, AI website, futuristic UX, AR interface, voice navigation, quantum security, 5G and AI, future of web, immersive web design
+      </div>
+    </footer>
+
+  </div>
+
 </body>
 </html>
