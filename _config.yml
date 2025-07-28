@@ -1,0 +1,26 @@
+title: Chris Kobsar | Cybersecurity Analyst
+email: chris@kobsar.com
+description: >-
+  A living portfolio of labs, threat analysis, and defensive strategies.
+baseurl: ""
+url: "https://chriskobsar.github.io"
+twitter_username: 
+github_username: chriskobsar
+
+# Use Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+nav:
+  - label: "Home"
+    url: /
+  - label: "Resume"
+    url: /about
+  - label: "Projects"
+    url: /projects
+  - label: "Blog"
+    url: /blog
