@@ -14,7 +14,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Navigation
+# Navi
 nav:
   - label: "Home"
     url: /
