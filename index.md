@@ -1,7 +1,7 @@
----
-layout: home
-title: "Chris Kobsar | Cybersecurity Analyst"
----
+
+<h1>Chris Kobsar 
+
+
 
 <h2>Cybersecurity Analyst | Threat Detection | Secure Systems</h2>
 <p>📍 Fredericksburg, VA | 📞  | ✉️ <a href="mailto:chris@kobsar.com">chris@kobsar.com</a><br>
