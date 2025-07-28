@@ -1,7 +1,7 @@
 <h3>📬 Contact Me</h3>
 <form action="https://formspree.io/f/YOUR-ID" method="POST">
-  <label>Name: <input type="text" name="Chris Kobsar" required></label><br><br>
-  <label>Email: <input type="email" name="chris@kobsar.com" required></label><br><br>
+  <label>Name: <input type="Chris Kobsar" name="Chris Kobsar" required></label><br><br>
+  <label>Email: <input type="chris@kobsar.com" name="chris@kobsar.com" required></label><br><br>
   
 </form>
 
