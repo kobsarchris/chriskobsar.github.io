@@ -1,7 +1,9 @@
----
-title: Resume
-layout: page
----
+<h3>📬 Contact Me</h3>
+<form action="https://formspree.io/f/YOUR-ID" method="POST">
+  <label>Name: <input type="text" name="Chris Kobsar" required></label><br><br>
+  <label>Email: <input type="email" name="chris@kobsar.com" required></label><br><br>
+  
+</form>
 
 ## 🎓 Education
 **University of Mary Washington** — Fredericksburg, VA  
@@ -25,3 +27,10 @@ layout: page
 Problem Solver | Clear Communicator | Detail-Oriented | Adaptable Learner | Team Collaborator
 
 📥 [Download Full Resume (PDF)] 
+## 📄 Resume Versions
+- [SOC Analyst Resume](/assets/resumes/resume-soc-analyst.pdf)
+- [Penetration Tester Resume](/assets/resumes/resume-pentest-junior.pdf)
+- [Compliance & Policy Analyst Resume](/assets/resumes/resume-compliance-analyst.pdf)
+- [Public-Private Innovation Resume](/assets/resumes/resume-public-private-innovation.pdf)
+- [General Cybersecurity Resume](/assets/resumes/resume-general-cyber.pdf)
+- [Unified Master Resume](/assets/resumes/resume-ultimate-unified.pdf)
