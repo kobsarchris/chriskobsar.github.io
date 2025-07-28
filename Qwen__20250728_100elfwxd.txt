@@ -1,0 +1,19 @@
+chriskobsar-website/
+│
+├── index.html                 # Homepage – clean, modern, personal brand
+├── about.md                   # Resume page with all your skills & education
+├── projects.md                # All labs + ML for threat detection section
+├── blog/
+│   └── 2025-04-05-cyber-pulse-3cx-attack.md  # First blog post (live threat analysis)
+├── _config.yml                # Jekyll config (Minimal Mistakes theme)
+├── _layouts/
+│   └── default.html           # (Theme layout – works out of the box)
+├── _includes/
+│   └── sidebar.html           # With live cyber news feed
+│   └── footer.html
+├── assets/
+│   ├── resume-chris-kobsar.pdf   # ← [YOU ADD THIS]
+│   └── img/
+│       └── profile.jpg        # ← Rename your IMG_5467.jpg to this
+├── README.md                  # Instructions for you
+└── .nojekyll                  # Enables GitHub Pages to host static files
