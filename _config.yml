@@ -3,9 +3,9 @@ email: chris@kobsar.com
 description: >-
   A living portfolio of labs, threat analysis, and defensive strategies.
 baseurl: ""
-url: "https://chriskobsar.github.io"
+url: "https://kobsarchgris.github.io"
 twitter_username: 
-github_username: chriskobsar
+github_username: kobsarchris
 
 # Use Minimal Mistakes theme
 remote_theme: "mmistakes/minimal-mistakes"
