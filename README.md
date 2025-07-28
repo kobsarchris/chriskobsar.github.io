@@ -1,4 +1,4 @@
-## 📄 Tailored Resumes
+## 📄 Resumes
 
 I maintain role-specific resumes to align with different cybersecurity career paths — all built from hands-on labs, coursework, and real-world readiness.
 
