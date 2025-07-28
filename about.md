@@ -1,9 +1,14 @@
 <h3>📬 Contact Me</h3>
-<form action="https://formspree.io/f/Chris Kobsar" method="POST">
-  <label>Name: <input type="Chris Kobsar" name="Chris Kobsar" required></label><br><br>
-  <label>Email: <input type="chris@kobsar.com" name="chris@kobsar.com" required></label><br><br>
-  
-</form>
+
+<p><strong>Chris Kobsar</strong><br>
+📧 <a href="mailto:chris@kobsar.com">chris@kobsar.com</a><br>
+📍 Fredericksburg, VA | <a href="https://linkedin.com/in/chriskobsar">LinkedIn</a> | <a href="https://github.com/chriskobsar">GitHub</a></p>
+
+<p>Feel free to reach out for opportunities in cybersecurity, collaboration, or just to connect. I’m open to roles in SOC, penetration testing, compliance, and public-private innovation.</p>
+
+<hr>
+
+
 
 ## 🎓 Education
 **University of Mary Washington** — Fredericksburg, VA  
